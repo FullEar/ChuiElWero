@@ -44,4 +44,9 @@ public class Player_Controller : MonoBehaviour
             player.velocity = new Vector2(player.velocity.x, jumpSpeed);
         }
     }
+
+    private void Awake()
+    {
+        PlayerPrefs.DeleteAll();
+    }
 }
