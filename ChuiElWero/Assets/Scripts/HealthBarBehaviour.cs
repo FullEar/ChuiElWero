@@ -19,15 +19,9 @@ public class HealthBarBehaviour : MonoBehaviour
         Slider.fillRect.GetComponentInChildren<Image>().color = Color.Lerp(Low, High, Slider.normalizedValue);
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        Slider.transform.position = Camera.main.WorldToScreenPoint(transform.parent.position + Offset);
-    }
-
     // Update is called once per frame
     void Update()
     {
-        
+        Slider.transform.position = Camera.main.WorldToScreenPoint(transform.parent.position + Offset);
     }
 }
