@@ -237,7 +237,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 499598993}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.19, y: -1.81, z: 0}
+  m_LocalPosition: {x: -6.1, y: 3.57, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -381,7 +381,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.21, y: -1.68, z: -10}
+  m_LocalPosition: {x: -6.21, y: 3.49, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -930,6 +930,10 @@ PrefabInstance:
     - target: {fileID: 820544977726070374, guid: d9280624adb385c4fa450f52e6833eb4, type: 3}
       propertyPath: m_Name
       value: Cactus
+      objectReference: {fileID: 0}
+    - target: {fileID: 820544977726070374, guid: d9280624adb385c4fa450f52e6833eb4, type: 3}
+      propertyPath: m_TagString
+      value: ObjectDamage
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9280624adb385c4fa450f52e6833eb4, type: 3}
