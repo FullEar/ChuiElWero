@@ -9,8 +9,7 @@ public class DamageObject : MonoBehaviour
     {
         if(collision.transform.CompareTag("Player"))
         {
-            Debug.Log("Player Damage");
-            Destroy(collision.gameObject);
+            collision.gameObject.GetComponent<Player_Controller>().ReturnPlayer();
           
         }
 

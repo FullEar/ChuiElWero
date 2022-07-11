@@ -61,6 +61,11 @@ public class Player_Controller : MonoBehaviour
         }
     }
 
+    public void ReturnPlayer()
+    {
+        transform.position = respawnPoint;
+    }
+
     private void Awake()
     {
         PlayerPrefs.DeleteAll();
