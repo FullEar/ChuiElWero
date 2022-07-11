@@ -881,7 +881,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 499598993}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -27.41, y: -2.18, z: 0}
+  m_LocalPosition: {x: -51.02, y: -1.78, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1059,13 +1059,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d588baa0b0fb72c4284ef79bd517b094, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.389
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 86
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
